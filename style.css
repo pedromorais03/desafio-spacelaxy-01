@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .container-inputs{
+  z-index: 9999;
+}
+
+.container .container-box{
+  width: 100px;
+  height: 100px;
+  background-color: turquoise;
+  z-index: 0;
+  position: absolute;
+  transform-origin: center;
+  transition: 1s all ease;
+}
